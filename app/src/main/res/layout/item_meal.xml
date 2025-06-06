@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Meal Image -->
+        <ImageView
+            android:id="@+id/mealImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="@color/gray_light"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Meal Name -->
+        <TextView
+            android:id="@+id/mealName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Category and Area -->
+        <TextView
+            android:id="@+id/mealCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category: Italian"
+            android:textSize="14sp"
+            android:textColor="@color/gray_dark" />
+
+        <TextView
+            android:id="@+id/mealArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Area: Italian"
+            android:textSize="14sp"
+            android:textColor="@color/gray_dark"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Ingredients -->
+        <TextView
+            android:id="@+id/ingredientsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients list"
+            android:textSize="14sp"
+            android:textColor="@color/gray_dark"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Instructions -->
+        <TextView
+            android:id="@+id/mealInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instructions"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:maxLines="5"
+            android:ellipsize="end" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
