@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Masak.In</string>
+    <string name="app_name">Masakin</string>
+    <string name="meal_image">Meal Image</string>
 </resources>

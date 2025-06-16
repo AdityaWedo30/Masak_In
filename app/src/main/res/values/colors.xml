@@ -1,40 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary Colors -->
-    <color name="primary_color">#FF6B35</color>
-    <color name="primary_dark">#E55A2B</color>
-    <color name="primary_light">#FF8A65</color>
-
-    <!-- Accent Colors -->
-    <color name="accent_color">#4CAF50</color>
-    <color name="accent_dark">#388E3C</color>
-    <color name="accent_light">#81C784</color>
-
-    <!-- Background Colors -->
-    <color name="background_gray">#F8F9FA</color>
-    <color name="card_background">#FFFFFF</color>
-
-    <!-- Text Colors -->
-    <color name="black">#212121</color>
-    <color name="white">#FFFFFF</color>
-    <color name="gray_light">#F5F5F5</color>
-    <color name="gray_medium">#9E9E9E</color>
-    <color name="gray_dark">#616161</color>
-
-    <!-- Status Colors -->
-    <color name="success_color">#4CAF50</color>
-    <color name="warning_color">#FF9800</color>
-    <color name="error_color">#F44336</color>
-
-    <!-- Gradient Colors -->
-    <color name="gradient_start">#FF6B35</color>
-    <color name="gradient_end">#F7931E</color>
-
-    <!-- Rating Color -->
-    <color name="rating_color">#FFC107</color>
-
-    <!-- Transparent Colors -->
-    <color name="black_overlay">#80000000</color>
-    <color name="white_overlay">#80FFFFFF</color>
+    <color name="bacground">#212121</color>
+    <color name="accent_lime">#cbfe00</color>
+    <color name="light">#e6e6e6</color>
 </resources>
