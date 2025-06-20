@@ -1,8 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Light Theme -->
     <style name="Base.Theme.MasakIn" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Status bar background color -->
+        <item name="android:statusBarColor">@android:color/white</item>
+
+        <!-- Icons on status bar: true = dark icons (for light background) -->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Optional: Navigation bar -->
+        <item name="android:navigationBarColor">@android:color/white</item>
+        <item name="android:windowLightNavigationBar">true</item>
     </style>
 
     <style name="Theme.MasakIn" parent="Base.Theme.MasakIn" />

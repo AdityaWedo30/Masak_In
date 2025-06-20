@@ -1,42 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/bacground"
     android:padding="16dp">
 
+    <!-- Search Field with Rounded Style -->
     <EditText
         android:id="@+id/searchEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Search meal"
+        android:background="@drawable/edittext_rounded"
+        android:paddingHorizontal="16dp"
         android:textColor="@color/light"
-        android:textColorHint="#888888"
-        android:backgroundTint="@color/light"
-        android:inputType="text" />
+        android:textColorHint="#AAAAAA"
+        android:inputType="text"
+        android:elevation="2dp" />
 
+    <!-- Search Button -->
     <Button
         android:id="@+id/searchButton"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:text="Search"
         android:textColor="@color/bacground"
         android:backgroundTint="@color/accent_lime"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="12dp" />
 
+    <!-- Loading -->
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="center_horizontal"
         android:visibility="gone"
         android:layout_marginTop="16dp" />
 
+    <!-- Result List -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="8dp" />
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp" />
 </LinearLayout>

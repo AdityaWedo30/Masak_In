@@ -7,11 +7,13 @@
     android:layout_margin="8dp"
     android:elevation="4dp"
     android:foreground="?android:attr/selectableItemBackground"
-    app:cardBackgroundColor="@color/bacground">
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="12dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/card_boarder"
         android:orientation="vertical"
         android:padding="12dp">
 
@@ -61,5 +63,6 @@
             android:layout_marginTop="4dp"
             android:textColor="@color/light"
             android:textSize="13sp" />
+
     </LinearLayout>
 </androidx.cardview.widget.CardView>

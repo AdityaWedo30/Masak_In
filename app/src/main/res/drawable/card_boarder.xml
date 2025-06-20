@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/bacground" /> <!-- Warna latar belakang card -->
+
+    <stroke
+        android:width="2dp"
+        android:color="@color/accent_lime" /> <!-- Warna garis pinggir -->
+
+    <corners android:radius="12dp" /> <!-- Sudut membulat -->
+</shape>
