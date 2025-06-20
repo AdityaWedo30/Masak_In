@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity() {
         setupRecyclerView()
         setupSearchButton()
 
-        // Load default Chicken recipes
         searchMeal("Chicken")
     }
 
@@ -179,7 +178,6 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-// Data class untuk Meal
 data class Meal(
     val id: String,
     val name: String,

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/bacground"
     android:padding="16dp">
 
-    <!-- Search Field with Rounded Style -->
     <EditText
         android:id="@+id/searchEditText"
         android:layout_width="match_parent"
@@ -20,7 +19,6 @@
         android:inputType="text"
         android:elevation="2dp" />
 
-    <!-- Search Button -->
     <Button
         android:id="@+id/searchButton"
         android:layout_width="match_parent"
@@ -30,7 +28,6 @@
         android:backgroundTint="@color/accent_lime"
         android:layout_marginTop="12dp" />
 
-    <!-- Loading -->
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"
@@ -40,7 +37,6 @@
         android:visibility="gone"
         android:layout_marginTop="16dp" />
 
-    <!-- Result List -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"

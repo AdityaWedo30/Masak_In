@@ -56,7 +56,6 @@
             android:textSize="14sp"
             android:layout_marginTop="8dp" />
 
-        <!-- ✅ Tambahkan tombol favorit di sini -->
         <Button
             android:id="@+id/favoriteButton"
             android:layout_width="match_parent"
